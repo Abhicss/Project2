@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    width: 100%;
+    padding-left: 70px;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap:90px; */
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-weight: bold;
+}
+nav>button{
+padding: 10px 20px 10px;
+color: white;
+border-radius: 6px;
+background-color: rgb(42, 42, 193);
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+
+}
